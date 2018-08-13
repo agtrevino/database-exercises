@@ -15,6 +15,6 @@ WHERE id = 2\G
 
 -- sets both author and title for the book with the id of 1
 UPDATE books
-Set author = 'Steve', title = 'Facts of Life'
+SET author = 'Steve', title = 'Facts of Life'
 WHERE id = 1\G
 
